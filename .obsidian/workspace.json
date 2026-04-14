@@ -1,0 +1,227 @@
+{
+  "main": {
+    "id": "2fcd0df32e982193",
+    "type": "split",
+    "children": [
+      {
+        "id": "1a994f4cf48e6e12",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7e20568079205619",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ようこそ.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ようこそ"
+            }
+          },
+          {
+            "id": "558658d71ef700f4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新規タブ"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "242e53d88b8f83d3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d17c70663bece6ae",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "グラフビュー"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f4d3408b646e886c",
+    "type": "split",
+    "children": [
+      {
+        "id": "a0420d50c9611f5b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ef445976ae0887ac",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "ファイルエクスプローラ"
+            }
+          },
+          {
+            "id": "0a7e0dba3baba109",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "検索"
+            }
+          },
+          {
+            "id": "37a657fc2fca8b68",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "ブックマーク"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c3afc2c9dcb01f11",
+    "type": "split",
+    "children": [
+      {
+        "id": "ac0365a0899a24b0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ce646b3d2ad02128",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "tesuto/0408.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "0408へのバックリンク"
+            }
+          },
+          {
+            "id": "851fb1c9a4f38238",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "tesuto/0408.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "0408からのアウトゴーイングリンク"
+            }
+          },
+          {
+            "id": "bf8cb36fd4bbafa3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "タグ"
+            }
+          },
+          {
+            "id": "50bfc64f26d8e1d8",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "すべてのプロパティ"
+            }
+          },
+          {
+            "id": "6c7662cdae660493",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "tesuto/0408.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "0408のアウトライン"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:クイックスイッチャーを開く": false,
+      "graph:グラフビューを開く": false,
+      "canvas:新規キャンバスを作成": false,
+      "daily-notes:今日のデイリーノートを開く": false,
+      "templates:テンプレートを挿入": false,
+      "command-palette:コマンドパレットを開く": false,
+      "bases:新規ベースを作成": false
+    }
+  },
+  "active": "d17c70663bece6ae",
+  "lastOpenFiles": [
+    "LINE_template.md",
+    "FLATUP_mission.md",
+    "AIKA_personality.md",
+    "tesuto/0408.md",
+    "プロジェクト引継書：絵本『FLATUPGYM 15年の物語』.md",
+    "system/SOUL.md",
+    "system",
+    "無題のファイル.md",
+    "ようこそ.md",
+    "無題のフォルダ",
+    "tesuto"
+  ]
+}
