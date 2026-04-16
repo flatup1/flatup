@@ -42,10 +42,14 @@
             "id": "d17c70663bece6ae",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "グラフビュー"
+              "type": "markdown",
+              "state": {
+                "file": "OpenClaw-VPS-作業指示-ステップバイステップ.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "OpenClaw-VPS-作業指示-ステップバイステップ"
             }
           }
         ]
@@ -212,9 +216,22 @@
   },
   "active": "d17c70663bece6ae",
   "lastOpenFiles": [
+    "CLAUDEmd.rtfd/TXT.rtf",
+    "CLAUDEmd.rtfd/Attachment.png",
+    "CLAUDEmd.rtfd",
+    "LINE広告データ自動取得GAS設定ガイド.md",
+    "LINE公式アカウント 一斉配信（ブロードキャスト）設定手順.md",
     "LINE_template.md",
+    "kickpants_uniform_size_stickers.pdf",
+    "FLATUPgym_企業概要書.pdf",
+    "flatupgym_line_ads_analysis_20250620014804.pdf",
+    "FLATUP_Security_SORA_Prompts 4.md",
     "FLATUP_mission.md",
+    "FLATUP_CM_Prompt 2.md",
+    "FLATUP GYM LINEメッセージ配信に関する最終報告.md",
+    "debug_instruction.md",
     "AIKA_personality.md",
+    "⭐️FLATUP_AI_OS_修復マニュアル.md",
     "tesuto/0408.md",
     "プロジェクト引継書：絵本『FLATUPGYM 15年の物語』.md",
     "system/SOUL.md",
