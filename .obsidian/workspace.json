@@ -6,6 +6,7 @@
       {
         "id": "1a994f4cf48e6e12",
         "type": "tabs",
+        "dimension": 34.79899497487437,
         "children": [
           {
             "id": "7e20568079205619",
@@ -37,22 +38,36 @@
       {
         "id": "242e53d88b8f83d3",
         "type": "tabs",
+        "dimension": 65.20100502512562,
         "children": [
           {
             "id": "d17c70663bece6ae",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "OpenClaw-VPS-作業指示-ステップバイステップ.md",
-                "mode": "source",
-                "source": false
+                "file": "無題のファイル.base",
+                "viewName": "表"
               },
-              "icon": "lucide-file",
-              "title": "OpenClaw-VPS-作業指示-ステップバイステップ"
+              "icon": "lucide-table",
+              "title": "無題のファイル"
+            }
+          },
+          {
+            "id": "cd5eb6a96d69fdea",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "無題のファイル 5.base",
+                "viewName": "表"
+              },
+              "icon": "lucide-table",
+              "title": "無題のファイル 5"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -195,13 +210,23 @@
               "icon": "lucide-list",
               "title": "0408のアウトライン"
             }
+          },
+          {
+            "id": "6ebc5efcddcda415",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 433.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -211,34 +236,57 @@
       "daily-notes:今日のデイリーノートを開く": false,
       "templates:テンプレートを挿入": false,
       "command-palette:コマンドパレットを開く": false,
-      "bases:新規ベースを作成": false
+      "bases:新規ベースを作成": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d17c70663bece6ae",
+  "active": "cd5eb6a96d69fdea",
   "lastOpenFiles": [
-    "CLAUDEmd.rtfd/TXT.rtf",
-    "CLAUDEmd.rtfd/Attachment.png",
-    "CLAUDEmd.rtfd",
+    "無題のファイル 4.base",
+    "無題のファイル 5.base",
+    "2026-04-16.md",
+    "無題のファイル 3.base",
+    "無題のファイル 2.base",
+    "無題のファイル 1.base",
+    "１１：09入力　同期テスト.md",
+    "無題のファイル.base",
+    "twitter-2026-04-10-30bf9ee58d24539872283800ead04d19b386888996ca4ed9e08d0bc8e4589a19/assets/images/twemoji/v/latest/72x72/1f0cf.png",
+    "OpenClaw-VPS-作業指示-ステップバイステップ.md",
+    "04164【完全引き継ぎ】対話式プロンプト_他AI向け.md",
+    "04163FLATUP_AI_完全引き継ぎドキュメント_対話式.md",
+    "04162FLATUP_HANDOFF_COMPLETE.md",
+    "0416.md",
+    "twitter-2026-04-10-30bf9ee58d24539872283800ead04d19b386888996ca4ed9e08d0bc8e4589a19/assets/images/twemoji/v/latest/svg/e50a.svg",
+    "twitter-2026-04-10-30bf9ee58d24539872283800ead04d19b386888996ca4ed9e08d0bc8e4589a19/assets/images/twemoji/v/latest/svg/ae.svg",
+    "twitter-2026-04-10-30bf9ee58d24539872283800ead04d19b386888996ca4ed9e08d0bc8e4589a19/assets/images/twemoji/v/latest/svg/a9.svg",
+    "twitter-2026-04-10-30bf9ee58d24539872283800ead04d19b386888996ca4ed9e08d0bc8e4589a19/assets/images/twemoji/v/latest/svg/39-20e3.svg",
+    "twitter-2026-04-10-30bf9ee58d24539872283800ead04d19b386888996ca4ed9e08d0bc8e4589a19/assets/images/twemoji/v/latest/svg/38-20e3.svg",
+    "twitter-2026-04-10-30bf9ee58d24539872283800ead04d19b386888996ca4ed9e08d0bc8e4589a19/assets/images/twemoji/v/latest/svg/37-20e3.svg",
+    "twitter-2026-04-10-30bf9ee58d24539872283800ead04d19b386888996ca4ed9e08d0bc8e4589a19/assets/images/twemoji/v/latest/svg/36-20e3.svg",
+    "twitter-2026-04-10-30bf9ee58d24539872283800ead04d19b386888996ca4ed9e08d0bc8e4589a19/assets/images/twemoji/v/latest/svg/35-20e3.svg",
+    "twitter-2026-04-10-30bf9ee58d24539872283800ead04d19b386888996ca4ed9e08d0bc8e4589a19/assets/images/twemoji/v/latest/svg/34-20e3.svg",
+    "twitter-2026-04-10-30bf9ee58d24539872283800ead04d19b386888996ca4ed9e08d0bc8e4589a19/assets/images/twemoji/v/latest/svg",
+    "twitter-2026-04-10-30bf9ee58d24539872283800ead04d19b386888996ca4ed9e08d0bc8e4589a19/assets/images/twemoji/v/latest/72x72",
+    "twitter-2026-04-10-30bf9ee58d24539872283800ead04d19b386888996ca4ed9e08d0bc8e4589a19/assets/images/twemoji/v/latest",
+    "twitter-2026-04-10-30bf9ee58d24539872283800ead04d19b386888996ca4ed9e08d0bc8e4589a19/assets/images/twemoji/v",
+    "twitter-2026-04-10-30bf9ee58d24539872283800ead04d19b386888996ca4ed9e08d0bc8e4589a19/data/tweets_media/999202867356491776-5s_nkLBqAy_oheot.mp4",
+    "FLATUPGYM 成約率最大化マスターガイド：体験設計とLINE接客アルゴリズム.md",
+    "FLATUPGYM AI構築：要件定義書 & 対話ログ・マスター.md",
+    "JIN専用：Master Brain & LINE AI 運用マニュアル.md",
+    "JIN Edition Exbrain 魔改造プロジェクト - 最終統合要件書.md",
+    "SOUL.md - JIN Edition 完成テンプレート.md",
+    "JIN Edition Exbrain 魔改造 - 実装ロードマップ＆ファイル改修案.md",
+    "🚀 JIN専用：AIビジネス自動化プロジェクト 全要件定義 & 対話ログ・マスター.md",
+    "FLATUP GYM ブランド構築・SNS戦略 対話履歴.md",
+    "【FLATUP AI OS】成約特化型ナレッジFAQリスト.md",
     "LINE広告データ自動取得GAS設定ガイド.md",
     "LINE公式アカウント 一斉配信（ブロードキャスト）設定手順.md",
     "LINE_template.md",
-    "kickpants_uniform_size_stickers.pdf",
-    "FLATUPgym_企業概要書.pdf",
-    "flatupgym_line_ads_analysis_20250620014804.pdf",
     "FLATUP_Security_SORA_Prompts 4.md",
     "FLATUP_mission.md",
     "FLATUP_CM_Prompt 2.md",
     "FLATUP GYM LINEメッセージ配信に関する最終報告.md",
     "debug_instruction.md",
-    "AIKA_personality.md",
-    "⭐️FLATUP_AI_OS_修復マニュアル.md",
-    "tesuto/0408.md",
-    "プロジェクト引継書：絵本『FLATUPGYM 15年の物語』.md",
-    "system/SOUL.md",
-    "system",
-    "無題のファイル.md",
-    "ようこそ.md",
-    "無題のフォルダ",
-    "tesuto"
+    "AIKA_personality.md"
   ]
 }
