@@ -26,12 +26,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "【FLATUP AI OS】成約特化型ナレッジFAQリスト.md",
+                "file": "JIN専用：Master Brain & LINE AI 運用マニュアル.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "【FLATUP AI OS】成約特化型ナレッジFAQリスト"
+              "title": "JIN専用：Master Brain & LINE AI 運用マニュアル"
             }
           }
         ],
@@ -194,7 +194,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 433.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -210,19 +211,34 @@
   },
   "active": "cd5eb6a96d69fdea",
   "lastOpenFiles": [
-    "無題のファイル 5.base",
-    "🚀 JIN専用：AIビジネス自動化プロジェクト 全要件定義 & 対話ログ・マスター.md",
-    "ようこそ.md",
-    "exbrain/vault-template/clips/_index.md",
-    "無題のファイル 4.base",
-    "2026-04-16.md",
-    "無題のファイル 3.base",
-    "無題のファイル 2.base",
-    "無題のファイル 1.base",
-    "１１：09入力　同期テスト.md",
-    "無題のファイル.base",
-    "twitter-2026-04-10-30bf9ee58d24539872283800ead04d19b386888996ca4ed9e08d0bc8e4589a19/assets/images/twemoji/v/latest/72x72/1f0cf.png",
+    "JIN Edition Exbrain 魔改造プロジェクト - 最終統合要件書.md",
+    "JIN専用：Master Brain & LINE AI 運用マニュアル.md",
+    "kickpants_uniform_size_stickers.pdf",
+    "LINE_template.md",
+    "LINE公式アカウント 一斉配信（ブロードキャスト）設定手順.md",
     "OpenClaw-VPS-作業指示-ステップバイステップ.md",
+    "OpenClaw-XServer-VPSセットアップ手順.md",
+    "SOUL.md",
+    "SOUL.md - JIN Edition 完成テンプレート.md",
+    "XServer-VPS-OpenClaw-ここからやること.md",
+    "プロジェクト引継書：絵本『FLATUPGYM 15年の物語』.md",
+    "ようこそ.md",
+    "契約書.pdf",
+    "無題のドキュメント - Google ドキュメント.pdf",
+    "無題のドキュメント - Google ドキュメント 3.pdf",
+    "無題のファイル.md",
+    "無題のファイル 1.base",
+    "無題のファイル 2.base",
+    "無題のファイル 3.base",
+    "無題のファイル 4.base",
+    "無題のファイル 5.base",
+    "令和7年分所得税青色申告決算書（一般用） (1).pdf",
+    "【FLATUP AI OS】成約特化型ナレッジFAQリスト.md",
+    "🚀 JIN専用：AIビジネス自動化プロジェクト 全要件定義 & 対話ログ・マスター.md",
+    "exbrain/vault-template/clips/_index.md",
+    "2026-04-16.md",
+    "１１：09入力　同期テスト.md",
+    "twitter-2026-04-10-30bf9ee58d24539872283800ead04d19b386888996ca4ed9e08d0bc8e4589a19/assets/images/twemoji/v/latest/72x72/1f0cf.png",
     "04164【完全引き継ぎ】対話式プロンプト_他AI向け.md",
     "04163FLATUP_AI_完全引き継ぎドキュメント_対話式.md",
     "04162FLATUP_HANDOFF_COMPLETE.md",
@@ -236,24 +252,9 @@
     "twitter-2026-04-10-30bf9ee58d24539872283800ead04d19b386888996ca4ed9e08d0bc8e4589a19/assets/images/twemoji/v/latest/svg/36-20e3.svg",
     "twitter-2026-04-10-30bf9ee58d24539872283800ead04d19b386888996ca4ed9e08d0bc8e4589a19/assets/images/twemoji/v/latest/svg/35-20e3.svg",
     "twitter-2026-04-10-30bf9ee58d24539872283800ead04d19b386888996ca4ed9e08d0bc8e4589a19/assets/images/twemoji/v/latest/svg/34-20e3.svg",
-    "twitter-2026-04-10-30bf9ee58d24539872283800ead04d19b386888996ca4ed9e08d0bc8e4589a19/assets/images/twemoji/v/latest/svg",
-    "twitter-2026-04-10-30bf9ee58d24539872283800ead04d19b386888996ca4ed9e08d0bc8e4589a19/assets/images/twemoji/v/latest/72x72",
-    "twitter-2026-04-10-30bf9ee58d24539872283800ead04d19b386888996ca4ed9e08d0bc8e4589a19/assets/images/twemoji/v/latest",
-    "twitter-2026-04-10-30bf9ee58d24539872283800ead04d19b386888996ca4ed9e08d0bc8e4589a19/assets/images/twemoji/v",
     "FLATUPGYM 成約率最大化マスターガイド：体験設計とLINE接客アルゴリズム.md",
     "FLATUPGYM AI構築：要件定義書 & 対話ログ・マスター.md",
-    "JIN専用：Master Brain & LINE AI 運用マニュアル.md",
-    "JIN Edition Exbrain 魔改造プロジェクト - 最終統合要件書.md",
-    "SOUL.md - JIN Edition 完成テンプレート.md",
     "JIN Edition Exbrain 魔改造 - 実装ロードマップ＆ファイル改修案.md",
-    "FLATUP GYM ブランド構築・SNS戦略 対話履歴.md",
-    "【FLATUP AI OS】成約特化型ナレッジFAQリスト.md",
-    "LINE広告データ自動取得GAS設定ガイド.md",
-    "LINE公式アカウント 一斉配信（ブロードキャスト）設定手順.md",
-    "LINE_template.md",
-    "FLATUP_Security_SORA_Prompts 4.md",
-    "FLATUP_mission.md",
-    "FLATUP_CM_Prompt 2.md",
-    "FLATUP GYM LINEメッセージ配信に関する最終報告.md"
+    "FLATUP GYM ブランド構築・SNS戦略 対話履歴.md"
   ]
 }
