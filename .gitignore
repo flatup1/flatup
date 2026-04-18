@@ -4,3 +4,4 @@ __pycache__/
 .DS_Store
 post_log.json
 material_tags.json
+LOGS/
