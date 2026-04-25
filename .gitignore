@@ -46,3 +46,7 @@ tiktok_post.py
 main.py
 knowledge.json
 requirements.txt
+
+# Bot code (APIキー含むため管理外)
+line_webhook.py
+*.py
