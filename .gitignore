@@ -5,3 +5,12 @@ __pycache__/
 post_log.json
 material_tags.json
 LOGS/
+
+# Large files / non-brain content
+twitter-*/
+*.mp4
+*.mov
+*.pdf
+広告生データ/
+*.base
+*.canvas
