@@ -1,16 +1,48 @@
+# Secrets
 .env
+flatup_config.env
+
+# Python
 __pycache__/
 *.pyc
-.DS_Store
-post_log.json
-material_tags.json
-LOGS/
 
-# Large files / non-brain content
-twitter-*/
+# OS
+.DS_Store
+
+# Obsidian internals
+.obsidian/
+*.base
+*.canvas
+system/
+
+# Binary / media
 *.mp4
 *.mov
 *.pdf
+*.png
+*.jpg
+*.jpeg
+*.docx
+*.pages
+*.csv
+*.txt
+*.rtf
+*.rtfd/
+
+# Large data
+twitter-*/
 広告生データ/
-*.base
-*.canvas
+exbrain/
+
+# Logs
+LOGS/
+post_log.json
+material_tags.json
+
+# Old scripts
+app.py
+google_review.py
+tiktok_post.py
+main.py
+knowledge.json
+requirements.txt
