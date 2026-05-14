@@ -233,6 +233,17 @@ def build_reply_instruction(msg):
         return "このユーザー質問は現在時刻確認のみ。現在時刻だけを1文で答え、営業案内や予約誘導は足さない。"
     return "ユーザーが聞いた範囲にだけ答える。不要な営業案内や予約誘導は足しすぎない。"
 
+def sanitize_ai_reply(text):
+    """LINE返信前に、LLMが混ぜたMarkdown記号を取り除く。"""
+    if not text:
+        return text
+    text = str(text)
+    text = text.replace("**", "").replace("__", "").replace("`", "")
+    text = re.sub(r"(?m)^\s{0,3}#{1,6}\s*", "", text)
+    text = re.sub(r"(?m)^\s{0,3}>\s?", "", text)
+    text = re.sub(r"(?m)^\s*[-*]\s+", "", text)
+    return text.strip()
+
 def call_aika(uid, msg):
     history = get_history(uid)
     system_content = f"{SYSTEM_PROMPT}\n\n{build_runtime_context()}\n\n# 返信範囲\n{build_reply_instruction(msg)}"
@@ -363,7 +374,7 @@ def webhook():
         fallback = "少し調子が悪いみたいです💦\nもう一度送っていただけますか？"
         resp, err = fallback, False
         try:
-            resp = call_aika(uid, msg)
+            resp = sanitize_ai_reply(call_aika(uid, msg))
             # 会話履歴に追加
             add_to_history(uid, "user", msg)
             add_to_history(uid, "assistant", resp)

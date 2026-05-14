@@ -68,6 +68,15 @@ def _normalize_date(value):
     return None
 
 
+def _parse_command(msg):
+    normalized = re.sub(r"^/\s+", "/", (msg or "").strip())
+    normalized = re.sub(r"\s+", " ", normalized)
+    if not (normalized.startswith("/closed") or normalized.startswith("/open")):
+        return None, None
+    parts = normalized.split(" ")
+    return parts[0], parts[1] if len(parts) >= 2 else ""
+
+
 def is_closed_today():
     return _today_str() in _load_closed_dates()
 
@@ -78,14 +87,12 @@ def handle_command(msg, uid, owner_user_id):
     Returns a reply string when the command was handled, otherwise None.
     Non-owner commands are ignored and continue through the normal AIKA path.
     """
-    if not (msg.startswith("/closed") or msg.startswith("/open")):
+    cmd, arg = _parse_command(msg)
+    if cmd is None:
         return None
     if uid != owner_user_id:
         return None
 
-    parts = msg.split()
-    cmd = parts[0]
-    arg = parts[1] if len(parts) >= 2 else ""
     dates = _load_closed_dates()
 
     if cmd == "/closed":
