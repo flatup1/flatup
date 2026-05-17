@@ -8,7 +8,9 @@
 |---|---|
 | `00_CORE/FLATUPGYM_AI_HOME.md` | FLATUPGYM AIの入口。Obsidian記憶・AIOS・GitHub管理の統合ホーム |
 | `6_システム/FLATUPGYM_AI_使い方.md` | JIN向けのわかりやすい使い方メモ |
+| `6_システム/FLATUPGYM_AI_中学生向け説明書.md` | FLATUPGYM AIの全体像を中学生にもわかる言葉で説明 |
 | `6_システム/FLATUPGYM_AI_機能一覧.md` | 今まで作った機能の一覧 |
+| `6_システム/FLATUPGYM_AI_整理台帳.md` | 未整理ファイルを安全に片づけるための台帳 |
 | `4_日記/FLATUPGYM_AI_学習ログ.md` | 改善・判断・失敗学習のログ |
 | `1_AIKA人格_本番.md` | AIKAの本番人格プロンプト |
 | `CLAUDE.md` | Claude Code向けの全体指示 |

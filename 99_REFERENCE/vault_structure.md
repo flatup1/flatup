@@ -20,7 +20,9 @@
 | `00_CORE/ブランド理念/中核コピー.md` | FLATUPGYMの北極星コピー |
 | `00_CORE/FLATUPGYM_AI_HOME.md` | FLATUPGYM AIの入口。Obsidian記憶・AIOS・GitHub運用の統合ホーム |
 | `6_システム/FLATUPGYM_AI_使い方.md` | JIN向けの使い方メモ |
+| `6_システム/FLATUPGYM_AI_中学生向け説明書.md` | FLATUPGYM AIを簡単な言葉で説明する入門書 |
 | `6_システム/FLATUPGYM_AI_機能一覧.md` | 今まで作ったAI機能の一覧 |
+| `6_システム/FLATUPGYM_AI_整理台帳.md` | 未整理ファイルを安全に分類するための台帳 |
 | `4_日記/FLATUPGYM_AI_学習ログ.md` | 改善・判断・失敗学習を残すログ |
 | `6_システム/FLATUPGYM_AI_GitHub運用.md` | GitHubでAIの成長履歴を管理する手順 |
 | `99_REFERENCE/ダヴィンチ指示文_経営全体最適化.md` | 経営全体最適化プロンプトの保管場所 |

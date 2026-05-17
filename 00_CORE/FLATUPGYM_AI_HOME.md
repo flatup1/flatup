@@ -26,9 +26,11 @@ GitHubにcommit/push
 |---|---|
 | 全体の入口 | `00_CORE/FLATUPGYM_AI_HOME.md` |
 | 使い方を知る | `6_システム/FLATUPGYM_AI_使い方.md` |
+| 中学生にもわかる説明を見る | `6_システム/FLATUPGYM_AI_中学生向け説明書.md` |
 | できることを一覧で見る | `6_システム/FLATUPGYM_AI_機能一覧.md` |
 | 何を学んだか見る | `4_日記/FLATUPGYM_AI_学習ログ.md` |
 | GitHubで育てる方法 | `6_システム/FLATUPGYM_AI_GitHub運用.md` |
+| 未整理ファイルを安全に片づける | `6_システム/FLATUPGYM_AI_整理台帳.md` |
 | AIKA本番人格 | `1_AIKA人格_本番.md` |
 | Codex/Claudeへの全体指示 | `CLAUDE.md` / `AGENTS.md` |
 
@@ -42,6 +44,7 @@ GitHubにcommit/push
 4. 前回の学びが関係しそうなら `4_日記/FLATUPGYM_AI_学習ログ.md` を読む。
 5. Git操作があるなら `6_システム/FLATUPGYM_AI_GitHub運用.md` を読む。
 6. `git status --short` で既存の未コミット差分を確認し、今回触る範囲だけを決める。
+7. 未整理ファイルを扱う時は `6_システム/FLATUPGYM_AI_整理台帳.md` を読む。
 
 このチェックを通すことで、AIが毎回「何から読めばいいか」で迷わなくなります。
 
@@ -130,3 +133,11 @@ FLATUPGYM AI HOMEを読んで、前回の続きから始めて。
 ```
 
 AIはこのファイル、`CLAUDE.md`、`AGENTS.md`、`6_システム/FLATUPGYM_AI_使い方.md` を確認してから作業します。
+
+## 100点への現在地
+
+現在のFLATUPGYM AI母艦は、入口・使い方・機能一覧・学習ログ・GitHub運用・中学生向け説明・整理台帳まで揃っています。
+
+採点すると **97点**。
+
+残りは、未整理ファイルを実際に分類し、本番コード差分を安全レビューするところです。

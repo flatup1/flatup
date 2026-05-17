@@ -131,9 +131,11 @@ FLATUPGYM AI統合作業:
 
 1. `00_CORE/FLATUPGYM_AI_HOME.md`
 2. `6_システム/FLATUPGYM_AI_使い方.md`
-3. `6_システム/FLATUPGYM_AI_機能一覧.md`
-4. `4_日記/FLATUPGYM_AI_学習ログ.md`
-5. `6_システム/FLATUPGYM_AI_GitHub運用.md`
+3. 中学生向け説明が必要なら `6_システム/FLATUPGYM_AI_中学生向け説明書.md`
+4. `6_システム/FLATUPGYM_AI_機能一覧.md`
+5. 未整理ファイルを扱うなら `6_システム/FLATUPGYM_AI_整理台帳.md`
+6. `4_日記/FLATUPGYM_AI_学習ログ.md`
+7. `6_システム/FLATUPGYM_AI_GitHub運用.md`
 
 JINの思考整理・タスク整理・作業再開:
 
@@ -163,7 +165,9 @@ LINE Bot / VPS作業:
 |---|---|
 | FLATUPGYM AI全体入口 | `00_CORE/FLATUPGYM_AI_HOME.md` |
 | FLATUPGYM AI使い方 | `6_システム/FLATUPGYM_AI_使い方.md` |
+| 中学生向け説明 | `6_システム/FLATUPGYM_AI_中学生向け説明書.md` |
 | 機能一覧 | `6_システム/FLATUPGYM_AI_機能一覧.md` |
+| 整理台帳 | `6_システム/FLATUPGYM_AI_整理台帳.md` |
 | 学習ログ | `4_日記/FLATUPGYM_AI_学習ログ.md` |
 | GitHub運用 | `6_システム/FLATUPGYM_AI_GitHub運用.md` |
 | LINE返信 | `01_SKILLS_CUSTOMER/line_reply.md` |
