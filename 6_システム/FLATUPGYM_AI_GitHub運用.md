@@ -32,6 +32,15 @@ cd "/Users/jin/Documents/Obsidian Vault"
 git status --short
 ```
 
+まず、今回の依頼に関係するファイルと、別作業の差分を分けます。
+
+```bash
+git diff --name-only
+git ls-files --others --exclude-standard
+```
+
+AIは、今回の依頼に関係しない未コミット差分を勝手にstageしません。
+
 秘密情報チェック:
 
 ```bash
@@ -47,6 +56,15 @@ git add "6_システム/FLATUPGYM_AI_機能一覧.md"
 git add "6_システム/FLATUPGYM_AI_GitHub運用.md"
 git add "4_日記/FLATUPGYM_AI_学習ログ.md"
 ```
+
+stage後の確認:
+
+```bash
+git diff --cached --name-only
+git diff --cached --stat
+```
+
+ここで、意図しない本番コード、休業日設定、APIキー、個人情報が入っていないか確認します。
 
 commit:
 
