@@ -83,8 +83,20 @@
 - `00_CORE/ブランド理念/SOUL.md`
 - `00_CORE/ブランド理念/中核コピー.md`
 - `01_SKILLS_CUSTOMER/README.md`
+- `01_SKILLS_CUSTOMER/line_reply.md`
+- `01_SKILLS_CUSTOMER/trial_booking.md`
+- `01_SKILLS_CUSTOMER/【FLATUP AI OS】成約特化型ナレッジFAQリスト.md`
+- `01_SKILLS_CUSTOMER/FLATUPGYM 成約率最大化マスターガイド：体験設計とLINE接客アルゴリズム.md`
 - `02_SKILLS_MARKETING/README.md`
+- `02_SKILLS_MARKETING/SNS/Typefully_X運用メモ_FLATUP.md`
+- `02_SKILLS_MARKETING/SNS/FLATUP_CM_Prompt 2.md`
+- `02_SKILLS_MARKETING/SNS/FLATUP GYM ブランド構築・SNS戦略 対話履歴.md`
+- `02_SKILLS_MARKETING/LINE広告/*.md`
+- `02_SKILLS_MARKETING/配信/*.md`
+- `02_SKILLS_MARKETING/video_factory/**/*.md`
+- `02_SKILLS_MARKETING/動画_SORA/*.md`
 - `03_SKILLS_INTERNAL/jin_copilot_protocol.md`
+- `03_SKILLS_INTERNAL/task_management/SKILL.md`
 - `4_日記/JIN_AI_INBOX.md`
 - `4_日記/JIN_AI_TASKS.md`
 - `4_日記/JIN_AI_RESUME.md`

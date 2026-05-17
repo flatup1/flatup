@@ -112,6 +112,13 @@
 - FLATUPの世界観に合う動画企画
 - 撮影/編集に渡せる構成案
 
+正本資料:
+
+- `02_SKILLS_MARKETING/video_factory/VIDEO_FACTORY_HOME.md`
+- `02_SKILLS_MARKETING/video_factory/STYLE_GUIDE.md`
+- `02_SKILLS_MARKETING/video_factory/templates/`
+- `02_SKILLS_MARKETING/動画_SORA/FLATUP_Security_SORA_Prompts 4.md`
+
 ## 6. 顧客対応スキル
 
 保存先:
@@ -127,6 +134,13 @@
 - 成約率最大化
 - FAQ
 - 初心者・女性・キッズ向け案内
+
+正本資料:
+
+- `01_SKILLS_CUSTOMER/line_reply.md`
+- `01_SKILLS_CUSTOMER/trial_booking.md`
+- `01_SKILLS_CUSTOMER/【FLATUP AI OS】成約特化型ナレッジFAQリスト.md`
+- `01_SKILLS_CUSTOMER/FLATUPGYM 成約率最大化マスターガイド：体験設計とLINE接客アルゴリズム.md`
 
 絶対ルール:
 

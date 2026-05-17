@@ -220,3 +220,30 @@ AIが勝手に本番を変えるのではなく、JIN承認済みの改善・判
 - `6_システム/FLATUPGYM_AI_機能一覧.md`
 - `6_システム/FLATUPGYM_AI_整理台帳.md`
 - `.gitignore`
+
+## 2026-05-17 顧客対応とマーケ資料を正本化した
+
+### 起きたこと
+
+- `01_SKILLS_CUSTOMER/` と `02_SKILLS_MARKETING/` に、返信、体験予約、FAQ、SNS、LINE広告、配信、動画の資料が残っていた。
+- これらは本番コードではなく、FLATUPGYM AIが下書きや提案を作るための知識として価値が高かった。
+
+### 学んだこと
+
+- 顧客対応とマーケ資料は、正本化するとAIの提案精度が上がる。
+- ただし、送信・配信・投稿・予約確定はJIN承認後に限る。
+- 生データ、画像、PDF、txtはGitHub管理よりもアーカイブ扱いが安全。
+
+### 次からのルール
+
+- LINE返信や体験予約は `01_SKILLS_CUSTOMER/README.md` から辿る。
+- SNS、広告、配信、動画は `02_SKILLS_MARKETING/README.md` から辿る。
+- 実行前には、必ずAIKA人格・LINE Bot仕様・Typefully運用ルールを確認する。
+
+### 反映先
+
+- `01_SKILLS_CUSTOMER/README.md`
+- `02_SKILLS_MARKETING/README.md`
+- `6_システム/FLATUPGYM_AI_正本マップ.md`
+- `6_システム/FLATUPGYM_AI_整理台帳.md`
+- `6_システム/FLATUPGYM_AI_機能一覧.md`
