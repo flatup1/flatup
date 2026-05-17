@@ -166,3 +166,29 @@ AIが勝手に本番を変えるのではなく、JIN承認済みの改善・判
 - `6_システム/FLATUPGYM_AI_本番コード差分レビュー.md`
 - `6_システム/code/config/closed_dates.json`
 - `00_CORE/FLATUPGYM_AI_HOME.md`
+
+## 2026-05-17 最適化では「危険なローカル設定」と「余計なGit履歴」を先に消す
+
+### 起きたこと
+
+- JINから「最適化して不要なものは削除して」と依頼があった。
+- `.claude/settings.local.json` にローカル実行許可とVPS接続情報が含まれていた。
+- `99_REFERENCE/exbrain/.git/` がVault内に残っており、親リポジトリのGit管理と混ざる状態だった。
+
+### 学んだこと
+
+- 不要ファイル削除では、内容のあるメモより先に、秘密情報・ローカル設定・別リポジトリの管理情報を片づける。
+- 参考資料そのものは残してよいが、参考資料内の `.git/` はObsidian Vaultの知識管理には不要。
+- `.claude/settings.local.json` は便利でもGitHub管理対象にしてはいけない。
+
+### 次からのルール
+
+- `.claude/settings.local.json` と `*.local.json` は `.gitignore` で無視する。
+- Vault内に別リポジトリを置く場合、`.git/` は削除するか、参考資料として完全に管理外に置く。
+- 削除は、重複・危険・機械生成メタデータに限定し、JINの判断や知識が入ったメモは勝手に消さない。
+
+### 反映先
+
+- `.gitignore`
+- `6_システム/FLATUPGYM_AI_整理台帳.md`
+- `4_日記/FLATUPGYM_AI_学習ログ.md`

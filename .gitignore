@@ -1,6 +1,8 @@
 # Secrets
 .env
 flatup_config.env
+.claude/settings.local.json
+*.local.json
 
 # Python
 __pycache__/
@@ -33,6 +35,7 @@ system/
 twitter-*/
 広告生データ/
 exbrain/
+**/.git/
 
 # Logs
 LOGS/
