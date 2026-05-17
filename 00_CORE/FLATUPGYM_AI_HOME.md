@@ -28,6 +28,7 @@ GitHubにcommit/push
 | 使い方を知る | `6_システム/FLATUPGYM_AI_使い方.md` |
 | 中学生にもわかる説明を見る | `6_システム/FLATUPGYM_AI_中学生向け説明書.md` |
 | できることを一覧で見る | `6_システム/FLATUPGYM_AI_機能一覧.md` |
+| どれが正本か確認する | `6_システム/FLATUPGYM_AI_正本マップ.md` |
 | 何を学んだか見る | `4_日記/FLATUPGYM_AI_学習ログ.md` |
 | GitHubで育てる方法 | `6_システム/FLATUPGYM_AI_GitHub運用.md` |
 | 未整理ファイルを安全に片づける | `6_システム/FLATUPGYM_AI_整理台帳.md` |

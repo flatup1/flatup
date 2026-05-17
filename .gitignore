@@ -1,6 +1,7 @@
 # Secrets
 .env
 flatup_config.env
+.claude/settings.json
 .claude/settings.local.json
 *.local.json
 
