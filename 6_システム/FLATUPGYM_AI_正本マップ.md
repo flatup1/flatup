@@ -117,6 +117,10 @@
 - `6_システム/openqlow_logs/README.md`
 - `99_REFERENCE/README.md`
 - `99_REFERENCE/vault_structure.md`
+- `99_REFERENCE/AIKA_OS_BRIEFING_20260514.md`
+- `99_REFERENCE/FLATUPGYM AI構築：要件定義書 & 対話ログ・マスター.md`
+- `99_REFERENCE/🚀 JIN専用：AIビジネス自動化プロジェクト 全要件定義 & 対話ログ・マスター.md`
+- `99_REFERENCE/ダヴィンチ指示文_経営全体最適化.md`
 - `4_日記/JIN_AI_INBOX.md`
 - `4_日記/JIN_AI_TASKS.md`
 - `4_日記/JIN_AI_RESUME.md`

@@ -38,6 +38,11 @@ twitter-*/
 exbrain/
 **/.git/
 
+# Archive bodies are local history; keep only the archive README in Git.
+5_アーカイブ/**
+!5_アーカイブ/
+!5_アーカイブ/README.md
+
 # Logs
 LOGS/
 post_log.json
