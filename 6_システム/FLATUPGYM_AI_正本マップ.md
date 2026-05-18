@@ -97,6 +97,21 @@
 - `02_SKILLS_MARKETING/動画_SORA/*.md`
 - `03_SKILLS_INTERNAL/jin_copilot_protocol.md`
 - `03_SKILLS_INTERNAL/task_management/SKILL.md`
+- `6_システム/README.md`
+- `6_システム/AIKA_LINE_Bot本体コマンド早見表.md`
+- `6_システム/AIKA_OS_中学生向け使い方.md`
+- `6_システム/JIN_COPILOT_OS.md`
+- `6_システム/JIN_COPILOT_LINE_COMMAND_DESIGN.md`
+- `6_システム/PHASE1_DESIGN.md`
+- `6_システム/PHASE1_NEXT_STEPS.md`
+- `6_システム/CLOSED_MODE_DESIGN.md`
+- `6_システム/開発フロー.md`
+- `6_システム/⭐️FLATUP_AI_OS_修復マニュアル.md`
+- `6_システム/JIN専用：Master Brain & LINE AI 運用マニュアル.md`
+- `6_システム/check_flatup_aika.sh`
+- `6_システム/code/flatup_config.env.example`
+- `6_システム/code/tests/run.sh`
+- `6_システム/flatup-research-ai/`
 - `4_日記/JIN_AI_INBOX.md`
 - `4_日記/JIN_AI_TASKS.md`
 - `4_日記/JIN_AI_RESUME.md`

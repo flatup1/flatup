@@ -217,7 +217,48 @@
 - 予約確定
 - 請求変更
 
-## 10. 学習ログ
+正本資料:
+
+- `6_システム/flatup-research-ai/README.md`
+- `6_システム/flatup-research-ai/AGENTS.md`
+- `6_システム/flatup-research-ai/CLAUDE.md`
+- `6_システム/flatup-research-ai/prompts/`
+- `6_システム/flatup-research-ai/src/`
+- `6_システム/flatup-research-ai/tests/`
+
+安全ルール:
+
+- 公開情報だけを使う。
+- ログイン、CAPTCHA回避、内部API解析はしない。
+- 出力は下書きであり、LINE送信・予約確定・請求変更はしない。
+
+## 10. システム設計・復旧資料
+
+保存先:
+
+```text
+6_システム/
+```
+
+主な資料:
+
+- `AIKA_LINE_Bot本体コマンド早見表.md`
+- `AIKA_OS_中学生向け使い方.md`
+- `JIN_COPILOT_OS.md`
+- `JIN_COPILOT_LINE_COMMAND_DESIGN.md`
+- `PHASE1_DESIGN.md`
+- `PHASE1_NEXT_STEPS.md`
+- `CLOSED_MODE_DESIGN.md`
+- `開発フロー.md`
+- `⭐️FLATUP_AI_OS_修復マニュアル.md`
+- `JIN専用：Master Brain & LINE AI 運用マニュアル.md`
+
+扱い:
+
+- 本番反映前の設計・復旧・再開資料として使う。
+- `6_システム/code/line_webhook.py` など本番コード差分は別レビューで扱う。
+
+## 11. 学習ログ
 
 保存先:
 
@@ -231,7 +272,7 @@
 - 失敗や詰まりを書いて、次回の判断を楽にする。
 - 重要な学びは `CLAUDE.md` / `AGENTS.md` / 各仕様書に昇格する。
 
-## 11. GitHub育成ループ
+## 12. GitHub育成ループ
 
 保存先:
 
@@ -255,7 +296,7 @@
 5. commitする。
 6. JINが求めた時だけpushする。
 
-## 12. 中学生向け説明書
+## 13. 中学生向け説明書
 
 保存先:
 
@@ -269,7 +310,7 @@
 - Obsidian、AIOS、GitHubの役割を「脳・手足・タイムマシン」として理解できるようにする。
 - AIが勝手に決めず、JINが最後に決めることを明確にする。
 
-## 13. 整理台帳
+## 14. 整理台帳
 
 保存先:
 
@@ -283,7 +324,7 @@
 - すぐ移動せず、現行・保留・アーカイブ・削除候補に分ける。
 - 本番コードや休業日設定を勝手に触らないためのガードにする。
 
-## 14. 正本マップ
+## 15. 正本マップ
 
 保存先:
 
@@ -297,7 +338,7 @@
 - GitHubに載せるもの、載せないものを分ける。
 - 未整理ファイルを見つけた時の判断順を固定する。
 
-## 15. JIN用Claudeコマンド
+## 16. JIN用Claudeコマンド
 
 保存先:
 

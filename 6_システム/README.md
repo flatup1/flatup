@@ -11,6 +11,7 @@ LINE Bot、VPS、本番運用、開発フローに関する現行ドキュメン
 | `FLATUPGYM_AI_機能一覧.md` | 今まで作った機能の一覧 |
 | `FLATUPGYM_AI_GitHub運用.md` | ObsidianとGitHubでAIを育てる運用手順 |
 | `FLATUPGYM_AI_整理台帳.md` | 未整理ファイルを安全に分類するための台帳 |
+| `FLATUPGYM_AI_正本マップ.md` | どのファイルを正本として見るかの地図 |
 | `LINE_BOT_仕様.md` | FLATUP GYM LINE Botの現行仕様と100点化ロードマップ |
 | `AIKA_LINE_Bot本体コマンド早見表.md` | LINEで使う本体コマンド一覧 |
 | `AIKA_OS_中学生向け使い方.md` | AIKA OS全体をやさしく説明した使い方 |
@@ -23,6 +24,8 @@ LINE Bot、VPS、本番運用、開発フローに関する現行ドキュメン
 | `flatup-research-ai/` | 競合調査・広告案・LINE文・リール台本生成MVP |
 | `JIN専用：Master Brain & LINE AI 運用マニュアル.md` | AI OS運用マニュアル |
 | `⭐️FLATUP_AI_OS_修復マニュアル.md` | 復旧時の参照マニュアル |
+| `CLOSED_MODE_DESIGN.md` | 休業日・オーナー限定モードの設計 |
+| `FLATUPGYM_AI_本番コード差分レビュー.md` | 本番コード差分を安全に保留するためのレビュー |
 
 ## 参照優先順位
 
@@ -38,3 +41,13 @@ LINE Bot、VPS、本番運用、開発フローに関する現行ドキュメン
 10. `5_アーカイブ/` 内の資料
 
 アーカイブ資料は過去ログ扱い。現行判断には使わない。
+
+## 本番コードの扱い
+
+以下は、設計資料と分けて扱います。
+
+- `6_システム/code/line_webhook.py`
+- `6_システム/code/lib/closed_mode.py`
+- `6_システム/code/config/closed_dates.json`
+
+これらは本番影響があるため、JIN承認、テスト、バックアップ、ロールバック手順が揃うまで反映しません。
