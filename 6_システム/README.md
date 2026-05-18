@@ -26,6 +26,8 @@ LINE Bot、VPS、本番運用、開発フローに関する現行ドキュメン
 | `⭐️FLATUP_AI_OS_修復マニュアル.md` | 復旧時の参照マニュアル |
 | `CLOSED_MODE_DESIGN.md` | 休業日・オーナー限定モードの設計 |
 | `FLATUPGYM_AI_本番コード差分レビュー.md` | 本番コード差分を安全に保留するためのレビュー |
+| `openqlow_drafts/` | OPENQLOW / HelMESで生成したSNS下書き控え |
+| `openqlow_logs/` | OPENQLOW / HelMESの生成・承認ログ |
 
 ## 参照優先順位
 
@@ -51,3 +53,12 @@ LINE Bot、VPS、本番運用、開発フローに関する現行ドキュメン
 - `6_システム/code/config/closed_dates.json`
 
 これらは本番影響があるため、JIN承認、テスト、バックアップ、ロールバック手順が揃うまで反映しません。
+
+## OPENQLOW下書きの扱い
+
+`openqlow_drafts/` と `openqlow_logs/` は、SNS下書きと承認ログの控えです。
+
+- 公開済み扱いにしない。
+- 投稿・予約・Typefully保存はJIN承認後のみ。
+- `approval_id` と `publication_level` を残す。
+- 個人情報やAPIキーは保存しない。

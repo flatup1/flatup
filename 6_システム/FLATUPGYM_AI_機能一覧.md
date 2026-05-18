@@ -358,3 +358,24 @@
 
 - コマンド本体はGitHub管理してよい。
 - `.claude/settings.json` と `.claude/settings.local.json` はローカル権限設定なのでGitHubに載せない。
+
+## 17. OPENQLOW / HelMES SNS下書き控え
+
+保存先:
+
+```text
+6_システム/openqlow_drafts/
+6_システム/openqlow_logs/
+```
+
+役割:
+
+- OPENQLOW / HelMESで生成したSNS下書きをVaultに残す。
+- X、Instagram、Threadsの媒体別下書きを保存する。
+- 承認ID、生成日時、安全チェックを後から確認できるようにする。
+
+禁止:
+
+- この控えだけで公開済み扱いにしない。
+- Typefully保存、予約投稿、SNS公開を自動実行しない。
+- 個人情報やAPIキーを保存しない。

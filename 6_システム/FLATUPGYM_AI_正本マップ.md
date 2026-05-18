@@ -27,6 +27,7 @@
 | JIN Copilot | `03_SKILLS_INTERNAL/jin_copilot_protocol.md` | JINの思考整理・再開支援ルール |
 | JIN作業台 | `4_日記/JIN_AI_*.md` | 未整理メモ、タスク、再開メモ |
 | システム運用 | `6_システム/` | LINE Bot、AIOS、開発、復旧、整理台帳 |
+| OPENQLOW下書き | `6_システム/openqlow_drafts/` / `6_システム/openqlow_logs/` | SNS下書きと承認ログのVault控え |
 | 参考資料 | `99_REFERENCE/` | 判断材料。現行ルールより優先しない |
 | アーカイブ | `5_アーカイブ/` | 過去資料。現行手順としては使わない |
 
@@ -112,6 +113,10 @@
 - `6_システム/code/flatup_config.env.example`
 - `6_システム/code/tests/run.sh`
 - `6_システム/flatup-research-ai/`
+- `6_システム/openqlow_drafts/README.md`
+- `6_システム/openqlow_logs/README.md`
+- `99_REFERENCE/README.md`
+- `99_REFERENCE/vault_structure.md`
 - `4_日記/JIN_AI_INBOX.md`
 - `4_日記/JIN_AI_TASKS.md`
 - `4_日記/JIN_AI_RESUME.md`

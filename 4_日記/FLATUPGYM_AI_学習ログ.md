@@ -274,3 +274,34 @@ AIが勝手に本番を変えるのではなく、JIN承認済みの改善・判
 - `6_システム/FLATUPGYM_AI_整理台帳.md`
 - `6_システム/FLATUPGYM_AI_機能一覧.md`
 - `6_システム/flatup-research-ai/`
+
+## 2026-05-19 アーカイブ・参考資料・OPENQLOW控えを索引化した
+
+### 起きたこと
+
+- `5_アーカイブ/` と `99_REFERENCE/` は低優先だが、探せる状態にしておく価値があった。
+- OPENQLOW / HelMESで生成したSNS下書きと承認ログがVault側に残っていた。
+- 本番LINE Bot差分は引き続き保留対象だった。
+
+### 学んだこと
+
+- アーカイブと参考資料は、全部を正本化するより「現行ではない」と明記する方が安全。
+- OPENQLOW下書きは公開済み投稿ではなく、承認済み下書きの控えとして扱う。
+- 低優先領域は削除より索引化の方が、将来の探索コストを下げる。
+
+### 次からのルール
+
+- `5_アーカイブ/` は一括commitしない。
+- `99_REFERENCE/` は背景資料として使い、必要な知見だけ正本へ昇格する。
+- `openqlow_drafts/` と `openqlow_logs/` は投稿実行ログではなく、下書きと承認ログの控えとして扱う。
+
+### 反映先
+
+- `5_アーカイブ/README.md`
+- `99_REFERENCE/README.md`
+- `99_REFERENCE/vault_structure.md`
+- `6_システム/openqlow_drafts/README.md`
+- `6_システム/openqlow_logs/README.md`
+- `6_システム/FLATUPGYM_AI_正本マップ.md`
+- `6_システム/FLATUPGYM_AI_整理台帳.md`
+- `6_システム/FLATUPGYM_AI_機能一覧.md`
